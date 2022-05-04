@@ -1,0 +1,232 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #F5F7FA;
+    font-style: normal;
+}
+/* main styles */
+.main {    
+    
+    display: flex;
+    flex-direction: row-reverse;
+    width: 1200px;
+    margin: 0 auto;
+    
+    
+}
+
+.main-content {
+    background-color: #FFF;
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+    padding: 105px 90px;
+}
+
+/* about styles */
+.about {
+    margin-bottom: 40px;
+}
+.about-position{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000;
+    margin-bottom: 20px;
+}
+.about-name{
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 55px;
+    color: #000;
+    margin-bottom: 25px;;
+}
+.about-description{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+    width: 400px;
+}
+.projects {
+    margin-bottom: 50px;
+}
+.title {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    color: #000000;
+    margin-bottom: 10px;
+}
+.projects-list,
+.work-list {
+    padding: 0;
+    margin-left: 15px;
+}
+.projects-item {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000000;
+}
+.project,
+.project-link {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+}
+.project-link {
+    text-decoration: none;
+    margin-left: 10px;
+    
+}
+/* work styles */
+.work {
+    width: 525px;
+}
+.work-position {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+    margin-bottom: 10px;
+}
+.organization {
+    color: #FB6D3A
+}
+.period {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #A8A8A8;
+    margin-bottom: 10px;
+}
+.line {
+    color: #000000;
+}
+.work-list li{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+}
+.company-1 {
+    margin-bottom: 15px;
+}
+.company-2 {
+    margin-bottom: 20px;
+}
+.company-3 {
+    margin-bottom: 40px;
+}
+
+/* Education styles */
+/* sidebar styles */
+.sidebar {
+    background-color: #1E2939;
+    padding-top: 40px;
+    width: 370px;
+}
+.photo {
+    width: 370px;
+    margin-bottom: 50px;
+}
+
+.sidebar-title{
+    color: #FFF;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    margin-bottom: 10px;
+}
+.contacts, .tech-skills, .soft-skills {
+    margin-left: 40px;
+}
+.contacts {
+    margin-bottom: 50px;
+}
+.tech-skills {
+    margin-bottom: 45px;
+}
+
+.contact-type {
+    font-weight: 700;
+    margin-right: 10px;
+}
+.contact-link {
+    font-weight: 400;
+    opacity: 0.5;
+}
+.tech-skills-list, .soft-skills-list {
+    padding: 0;
+    margin-left: 17px;
+    list-style: none;
+    font-weight: 400;
+}
+.tech-skills-list li::before, .soft-skills-list li::before {
+    content: "\2022";
+    color: #FB6D3A;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+.phone {
+    text-decoration: none;
+}
+.sidebar-text-style {
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.project-link {
+    background-image: linear-gradient(
+      to right,
+      #54b3d6,
+      #54b3d6 50%,
+      rgba(0, 0, 0, 0.493) 50%
+    );
+    background-size: 200% 100%;
+    background-position: -100%;
+    display: inline-block;
+    padding: 5px 0;
+    position: relative;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .project-link:before {
+    content: '';
+    background: #54b3d6;
+    display: block;
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 0;
+    height: 3px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .project-link:hover {
+   background-position: 0;
+  }
+  
+  .project-link:hover::before {
+    width:100%;
+  }
+  .react-shine {
+      transition: all 0.3s ease-in-out
+  }
+  .react-shine:hover {
+      background-color: rgb(20, 185, 214);
+      border-radius: 3px;
+      color: white;
+  }
+  .node-js {
+    transition: all 0.3s ease-in-out
+  }
+  .node-js:hover {
+    background-color: rgb(1, 219, 85);
+    border-radius: 3px;
+    color: white;
+}
